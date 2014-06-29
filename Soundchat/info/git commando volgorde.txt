@@ -1,0 +1,4 @@
+git add foo.js
+git commit foo.js -m "commit"
+git pull
+git push

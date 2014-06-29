@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/barBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <EditText
+            android:id="@+id/txtMessage"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:hint="@string/txtMessageHint"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/lblBtnSend" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/barTop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:indeterminate="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="1" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvChat"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_above="@id/barBottom"
+        android:layout_below="@id/barTop"
+        android:divider="#00000000" >
+    </ListView>
+
+</RelativeLayout>

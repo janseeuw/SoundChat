@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Soundchat</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtMessageHint">Typ tekst hier</string>
+    <string name="lblBtnSend">Verstuur</string>
+    <string name="btnRec">Rec</string>
+    
+</resources>
