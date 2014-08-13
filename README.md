@@ -1,22 +1,22 @@
 #README
 
-## Beta - werkende functionaliteit
+## Alpha
 
-### Functionaliteit voor versturen
+### Functionality for sending
 
-- Bericht kan worden omgezet van string naar binair
-- Bericht kan gemoduleerd worden met frequency-shift keying (FSK)
-- Het gemoduleerde signaal kan verstuurd worden via de luidspreker
+- Message converts from string to binary
+- Binary message is modulated using frequency-shift keying (FSK)
+- The modulated signal is transmitted through the speaker
 
-### Functionaliteit voor ontvangen
+### Functionality for receiving 
 
-- Geluid kan opgevangen worden door de microfoon
-- Geluid kan gedemoduleerd worden met het algoritme van Goertzel (efficiente DFT)
-- Het gedemoduleerde signaal kan als bericht worden herkent, wordt omgezet naar string en op UI getoont
+- Sound is captured by the microphone
+- Captured sound can be demodulated using Goertzelalgorithm (efficient DFT)
+- The demodulated signal kan be recognized as a message, converted to a string and put on UI
 
-### Persistentie
+### Persistence
 
-- Berichten worden opgeslaan
+- Messages are stored using SQLite
 
 
 ![Soundchat](http://f.cl.ly/items/3921343b2m271j1X0V01/Schermafbeelding%202014-04-25%20om%2013.29.59.png)
