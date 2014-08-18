@@ -11,8 +11,8 @@
 ### Functionality for receiving 
 
 - Sound is captured by the microphone
-- Captured sound can be demodulated using Goertzelalgorithm (efficient DFT)
-- The demodulated signal kan be recognized as a message, converted to a string and put on UI
+- Captured sound can be demodulated using Goertzel algorithm (efficient DFT)
+- The demodulated signal can be recognized as a message, converted to a string and put on UI
 
 ### Persistence
 
